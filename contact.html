@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minplate - Responsive Minimal Template</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="codebucks" />
+
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
+
+    <!-- Bootstrap Css-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+
+    <!-- Fomt Awesome-->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css" />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body id="body-start">
+
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-default navbar-custom navbar-light">
+        <div class="container">
+            <a class="navbar-brand logo" href="index.html">Minplate</a>
+
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-collapse-1" aria-controls="navbar-collapse-1" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project.html">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+
+    <section class="section-margin">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="mp-title">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <h1>Don’t Hesitate To <span class="line-bottom">Contact</span> Us</h1>
+
+                                <h4 class="subtitle">Aenean sollicitudin, lorem quis bibendum auctor, nisi
+                                    elit consequat ipsum, nec sagittis sem nibh id elit. Proin gravida nibh vel velit
+                                    auctor Aenean sollicitudin, adipisicing elit sed lorem quis bibendum auctor.</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+
+            <div class="row flex-row-reverse mt-5">
+                <div class="col-lg-3 offset-lg-1 address-box">
+                    <div>
+                        <h4 class="fw-bold"><i class="fa-regular fa-envelope me-2"></i> Email Address</h4>
+                        <p>Contact@yourmail.com</p>
+                    </div>
+                    <div class="mt-4">
+                        <h4 class="fw-bold"><i class="fa-solid fa-phone me-2"></i> Telephone</h4>
+                        <p>+880 333 444 555</p>
+                    </div>
+                    <div class="mt-4 mb-5 mb-lg-0">
+                        <h4 class="fw-bold"><i class="fa-solid fa-map me-2"></i> Address</h4>
+                        <p>67th World Street, Galaxy Bd, UXA</p>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div id="form_status"></div>
+                    <form action="mail.php" method="post" id="contact-form" onSubmit="return valid_datas( this );">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Your Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <input type="text" name="subject" class="form-control" placeholder="Subject">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" rows="5" placeholder="Your Message...."></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <input type="submit" class="btn btn-light btn-rounded mt-3" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </div> <!-- end container -->
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+
+                        <div class="backToTop mb-4"><a href="#body-start"><i class="fa fa-angle-double-up"></i><br><h4 class="fw-bold">Back to top</h4></a></div>
+
+                        <ul class="list-inline social-circle mt-4">
+                            <li class="list-inline-item"><a href=""> <i class="fa-brands fa-facebook-f"></i> </a></li>
+                            <li class="list-inline-item"><a href=""> <i class="fa-brands fa-x-twitter"></i> </a></li>
+                            <li class="list-inline-item"><a href=""> <i class="fa-brands fa-instagram"></i> </a></li>
+                            <li class="list-inline-item"><a href=""> <i class="fa-brands fa-behance"></i> </a></li>
+                            <li class="list-inline-item"><a href=""> <i class="fa-brands fa-github"></i> </a></li>
+                        </ul>
+
+
+                        <p class="mb-0 copyright-txt">
+                            © Minplate
+                            <script>document.write(new Date().getFullYear())</script> - Created by <a href="https://imransdesign.com/">Imransdesign</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- end row -->
+
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- JAVASCRIPTS -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- isotope filter plugin -->
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/portfolio-filter.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/form-validate.js"></script>
+
+</body>
+
+</html>
